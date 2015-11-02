@@ -75,7 +75,7 @@ The parameter input format for passing parameters to runnable class is restricte
 Command Line Example
 --------------------
 ```ShellSession
-java -cp output/SpadesAnalytics.jar com.qmedic.spades.task.SpadesSubmit -cluster MapReduce -mode Once -speed 32x -filesystem s3n -jar spades-data/development/user/SpadesAnalytics.jar -classpath com.qmedic.spades.task.examples.mapreduce.ActivityCount.ActivityCountClean -input spades-data/development/stanford/2/StanfordStudyYouth2/1/MasterSynced/*   -key "yourAccessKey" -secret "yourSecretKey" -duration 4 -cost 20 -p "-c false -f s3n -j spades-data/development/user/SpadesAnalytics.jar -a com.qmedic.spades.task.examples.mapreduce.ActivityCount.ActivityCountClean -i spades-data/development/stanford/2/StanfordStudyYouth2/1/MasterSynced/*"
+java -cp output/SpadesAnalytics.jar com.qmedic.spades.task.SpadesSubmit -cluster MapReduce -mode Once -speed 32x -filesystem s3n -jar spades-data/development/user/SpadesAnalytics.jar -classpath com.qmedic.spades.task.examples.mapreduce.ActivityCount.ActivityCountClean -input spades-data/development/stanford/2/StanfordStudyYouth2/1/MasterSynced/*   -key "yourAccessKey" -secret "yourSecretKey" -duration 4 -cost 20 -p "-c false -f s3n -j spades-data/development/user/SpadesAnalytics.jar -a com.qmedic.spades.task.examples.mapreduce.ActivityCount.ActivityCountClean -i spades-data/development/stanford/2/StanfordStudyYouth2/1/MasterSynced/*
 ```
 
 Output
