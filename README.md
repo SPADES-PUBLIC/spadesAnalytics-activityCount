@@ -6,7 +6,6 @@ Usage
 ```ShellSession
 [Hadoop Path] [jar] [Jar File Name] [Class Path for Algorithm in Jar] [-c] [Cross Participants] [-f] [File System] [-j] [Runnable Jar File Path] [-a] [Class Path for Algorithm in Jar] [-i] [Data Input Path]
 ```
-
 * [Local directory to jar file]: The local directory for jar file 
    * Example:  output/SpadesAnalytics.jar (here SpadesAnalytics.jar is a runnable jar file in the local computer)
 * [com.qmedic.spades.task.SpadesSubmit]: the class to submit the job to EMR 
@@ -53,12 +52,12 @@ Parameter Input
 ----------------------
 The parameter input format for passing parameters to runnable class is restricted to the following, a future work item would be extended and allow for a variety of flexible formats.
 
-*Format*
+**Format**
 ```ShellSession
 -c [false] -f [s3n] -j [s3n directory to jar file] -a [class name in jar file of s3n] -i [data input path]
 ```
 
-*Example*
+**Example**
 ```ShellSession
 -c false -f s3n -j spades-data/development/user/SpadesAnalytics.jar -a com.qmedic.spades.task.examples.mapreduce.ActivityCount.ActivityCountClean -i spades-data/development/stanford/2/StanfordStudyYouth2/1/MasterSynced/*
 ```
@@ -89,7 +88,8 @@ Typically the feature data file will be stored in the metadata directories and w
 * [FEATURE NAME]: Feature name
    * Example: MetaData-ActivityCountClean-2015-10-29-10-50-21-021
 
-*Output Content*
+**Output Content**
+
 For example, the first two lines in the activity count.csv file could look like this:
 ```ShellSession
 HEADER_TIME_STAMP, X_ACTIVITY_COUNT,Y_ACTIVITY_COUNT,Z_ACTIVITY_COUNT,VM_ACTIVITY_COUNT
