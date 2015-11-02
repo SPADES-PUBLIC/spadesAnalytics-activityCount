@@ -84,7 +84,7 @@ Typically the feature data file will be stored in the metadata directories and w
 ```ShellSession
 [ALGORITHM].[AlgorithmID].[YYYY]-[MM]-[DD]-[hh]-[mm]-[ss]-[mmm]-[P/M][hhmm].csv.gz 
 ```
-* ALGORITHM: Prefix of the file name
+* [ALGORITHM]: Prefix of the file name
 * [FEATURE NAME]: Feature name
    * Example: MetaData-ActivityCountClean-2015-10-29-10-50-21-021
 
@@ -95,7 +95,7 @@ For example, the first two lines in the activity count.csv file could look like 
 HEADER_TIME_STAMP, X_ACTIVITY_COUNT,Y_ACTIVITY_COUNT,Z_ACTIVITY_COUNT,VM_ACTIVITY_COUNT
 2013/11/20 00:00:00.000, 0, 0, 0, 0
 ```
-* HEADER_TIME_STAMP: The start timestamp for activity count (here activity count is calculated in 1 minute)
+* [HEADER_TIME_STAMP]: The start timestamp for activity count (here activity count is calculated in 1 minute)
 * [X_ACTIVITY_COUNT]: Value of activity count based on the x-axis acceleration data
 * [Y_ACTIVITY_COUNT]: Value of activity count based on the y-axis acceleration data
 * [Z_ACTIVITY_COUNT]: Value of activity count based on the z-axis acceleration data
