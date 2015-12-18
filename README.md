@@ -82,7 +82,7 @@ Output
 ------
 Typically the feature data file will be stored in the metadata directories and will include processed data that can be recomputed from the raw data. The structure of the filename is: 
 ```ShellSession
-[ALGORITHM].[AlgorithmID].[YYYY]-[MM]-[DD]-[hh]-[mm]-[ss]-[mmm]-[P/M][hhmm].csv.gz 
+[ALGORITHM].[FEATURE NAME].[YYYY]-[MM]-[DD]-[hh]-[mm]-[ss]-[mmm]-[P/M][hhmm].csv.gz 
 ```
 * [ALGORITHM]: Prefix of the file name
 * [FEATURE NAME]: Feature name
